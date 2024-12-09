@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(173, 216, 230);
+}
+.cen {
+  text-align: center;
+}
+
+label {
+  font-size: 19px;
+}
+
+.create {
+  display: flex;
+  flex-direction: column;
+}
+
+.dm {
+  margin-top: 15px;
+  bottom: 20px;
+  margin-left: 100px;
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  display: block;
+  float:left;
+  margin-bottom: 10px;
+}
+
+.tab {
+  font-size: 17px;
+  width: 94%;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+.ad_kab{
+color: rgb(25, 25, 112);
+font-size: 45px;
+
+}
+.zob{
+  display: inline-block;
+  margin-bottom: 10px;
+  position: relative;
+  float: right;
+  margin-right: 340px;
+
+}
+a{
+  color: rgb(65, 105, 225);
+  font-size: 35px;
+  background-color: rgb(230, 230, 250);
+}
