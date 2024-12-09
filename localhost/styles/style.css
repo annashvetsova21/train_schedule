@@ -1,0 +1,15 @@
+.route-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(255, 228, 196);
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  font-size: 16px;
+  margin: 10px;
+  
+}
+.route-button:hover {
+  background-color: #ddd;
+}
