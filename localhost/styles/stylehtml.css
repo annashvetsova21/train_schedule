@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom right, rgb(0, 128, 128), rgb(176, 224, 230), rgb(255, 255, 255));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(224, 255, 255, 0.6);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: rgb(135, 206, 235);
+}
+.he{
+  margin-left: 45px;
+}
+.a{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 70px;
+  text-transform: uppercase;
+  color:#343434;
+  text-shadow: 0 3px rgb(250,235,215), 0 3px #777;
+  margin-top: 30px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container form {
+  width: 400px;
+  padding: 20px;
+  background-color: rgba(211, 211, 211, 0);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.head1{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 32px;
+}
+.he1{
+  width: 350px;
+  height: 55px;
+}
+.he2{
+  width: 370px;
+  height: 55px;
+}
+.nad{
+  display: inline-block;
+  margin-left: 10px;
+}
+.head2{
+  display: inline-block;
+  margin-left: 45px;
+  margin-right: 10px;
+  margin-top: 32px;
+}
+.admin-window {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(224, 255, 255, 0);
+
+}
+
+.admin-window h2 {
+  margin-top: 0;
+}
+
+.admin-window form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-window label {
+  background-color: rgba(224, 255, 255, 0)
+  margin-bottom: 5px;
+}
+
+.admin-window input{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.admin-window button {
+  margin-bottom: 10px;
+  background-color: rgba(224, 255, 255,0.5);
+}
